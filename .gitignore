@@ -2,3 +2,4 @@
 *.swp
 
 .ipynb_checkpoints/*
+hits.h5
