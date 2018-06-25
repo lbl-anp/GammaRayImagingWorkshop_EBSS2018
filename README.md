@@ -39,6 +39,9 @@ The VM can be downloaded
 **It is not required to download this on your personal machine prior to the
 workshop** - the provided computers will have all the necessary software.
 
+The default user for the installed OS is: *imager*
+The password for the default account is: *compton*
+
 ### Python Package Managers
 
 For users who already have python installed on their systems, a pip
