@@ -71,6 +71,7 @@ naming convention:
 ```bash
 wget -L -O hits.h5 https://www.dropbox.com/s/ojq4i9fyz8f7205/hits.h5?dl=0
 ```
+
 Make sure that the resultant `hits.h5` file is stored in the top-level 
 directory of this project (i.e. the same directory that this `README.md` file
 is in).
@@ -85,6 +86,37 @@ This should produce a Compton image created with 1000 cones from the simulated
 dataset.
 If the above command yields any errors, please notify the instructors (or
 create an issue on the GitHub page if working remotely).
+
+## Getting Started
+
+Once you are confident that your system is properly configured and the dataset
+has been downloaded, you can begin the hands-on portion of the workshop by 
+running `jupyter-notebook` from the top-level directory of this project.
+The workshop is split into three parts:
+ 1. Part I - Understanding the data and basic manipulation
+ 2. Part II - Event processing and image reconstruction
+ 3. Part III - Exploring uncertainties and image quality
+
+Since the workshop sessions are about 1.5 hours long, an appropriate pace for 
+the lessons would be about 20-25 min for each part.
+The ability to get through these lessons will depend a great deal on how
+familiar each individual student is with python for data analysis.
+Students who have experience with the tools will likely be able to complete
+the lessons on the scheduled pace, while beginners may struggle to even
+complete the first lesson.
+In an attempt to accomodate students of all skill-levels, the lessons contain
+optional extensions to the given exercises to provide potential directions for
+advanced students to explore.
+Additionally, a set of solutions is provided that can be accessed at any time.
+The solutions come in the form of populated jupyter-notebooks and are kept on
+a branch called `solutions` in this repository.
+The solutions branch can be accessed via:
+```bash
+git checkout --track origin/solutions
+```
+
+We recommend trying each exercise yourself before looking at the solutions, but
+you are welcome to pursue the activities however you see fit.
 
 ## License
 
