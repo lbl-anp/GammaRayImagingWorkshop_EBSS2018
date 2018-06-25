@@ -3,5 +3,5 @@ jupyter==1.0.0
 matplotlib==2.2.2
 notebook==5.5.0
 numpy==1.14.5
-tables=3.4.4
+tables==3.4.4
 tqdm==4.23.4
