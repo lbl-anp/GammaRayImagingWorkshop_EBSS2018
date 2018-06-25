@@ -136,7 +136,7 @@ if __name__ == "__main__":
                                  compute_cone_scatter_axes
 
     # Load data
-    with tables.open_file(os.path.expanduser('~') + '/Desktop/hits.h5', 'r') as hf:
+    with tables.open_file('hits.h5', 'r') as hf:
         ptrs, lens = hf.root.EventPointers.read(), hf.root.EventLengths.read()
         idata = hf.root.InteractionData.read()
 
